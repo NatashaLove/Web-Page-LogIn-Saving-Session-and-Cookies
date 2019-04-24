@@ -14,6 +14,9 @@
     <h3><a href="PostExample.aspx">Post Example</a></h3>
     <h3><a href="SessionExample.aspx">Session Example</a></h3>
     <h3><a href="CookieExample.aspx">Cookie Example</a></h3>
+	<br />
+	<br />
+	<div> About us: </div>
 
 </body>
 </html>

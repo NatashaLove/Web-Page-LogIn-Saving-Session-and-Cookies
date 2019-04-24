@@ -7,7 +7,7 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" action="./SessionPage2.aspx" method ="post"> <!-- added action and method -->
         <div>
 			            <h1>Enter your username and password</h1>
             <asp:Label ID="lblUsername" runat="server" Text="Username: "></asp:Label>
