@@ -66,10 +66,85 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CookieExample.aspx" />
+    <Content Include="CookiePage2.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Default.css" />
+    <Content Include="GetExample.aspx" />
+    <Content Include="GetPage2.aspx" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="PostExample.aspx" />
+    <Content Include="PostPage2.aspx" />
+    <Content Include="SessionExample.aspx" />
+    <Content Include="SessionPage2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes.cs" />
+    <Compile Include="CookieExample.aspx.cs">
+      <DependentUpon>CookieExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CookieExample.aspx.designer.cs">
+      <DependentUpon>CookieExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CookiePage2.aspx.cs">
+      <DependentUpon>CookiePage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CookiePage2.aspx.designer.cs">
+      <DependentUpon>CookiePage2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetExample.aspx.cs">
+      <DependentUpon>GetExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetExample.aspx.designer.cs">
+      <DependentUpon>GetExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetPage2.aspx.cs">
+      <DependentUpon>GetPage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetPage2.aspx.designer.cs">
+      <DependentUpon>GetPage2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostExample.aspx.cs">
+      <DependentUpon>PostExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PostExample.aspx.designer.cs">
+      <DependentUpon>PostExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostPage2.aspx.cs">
+      <DependentUpon>PostPage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PostPage2.aspx.designer.cs">
+      <DependentUpon>PostPage2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionExample.aspx.cs">
+      <DependentUpon>SessionExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionExample.aspx.designer.cs">
+      <DependentUpon>SessionExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SessionPage2.aspx.cs">
+      <DependentUpon>SessionPage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionPage2.aspx.designer.cs">
+      <DependentUpon>SessionPage2.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
